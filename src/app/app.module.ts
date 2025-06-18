@@ -3,12 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HighchartsChartModule } from 'highcharts-angular';
 
 import { AppComponent } from './app.component';
-import { MyChartComponent } from './components/my-chart/my-chart.component';
-
+import { LineChartComponent } from './charts/linechart/line-chart.component';
+import { BarChartComponent } from './charts/barchart/bar-chart.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MyChartComponent 
+    BarChartComponent,
+    LineChartComponent, 
   ],
   imports: [
     BrowserModule,
